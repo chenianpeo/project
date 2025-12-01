@@ -1,0 +1,35 @@
+body {
+  margin: 0 auto;
+  width: 758px;
+  height: 538px;
+}
+body .topbar {
+  width: 758px;
+  height: 40px;
+  border-bottom: 1px dashed gray;
+}
+body .content {
+  width: 758px;
+  height: 498px;
+  display: flex;
+}
+body .content .sidebar {
+  width: 100px;
+  height: 498px;
+  border-right: 1px dashed gray;
+}
+body .content .sidebar div {
+  width: 100px;
+  height: 35px;
+  border-bottom: 1px dashed gray;
+  font-size: 16px;
+  line-height: 35px;
+  text-align: center;
+}
+body .content .sidebar div:hover {
+  background-color: #e3dfdf;
+}
+body .content .container {
+  width: 658px;
+  height: 498px;
+}

@@ -1,0 +1,65 @@
+// out: ./index.css
+body {
+    margin: 0 auto;
+
+    width: 758px;
+    height: 538px;  // extension opening page max size about is 778 * 558
+
+
+    // background-color: skyblue;
+
+    // top tool bar
+
+    .topbar {
+        width: 758px;
+        height: 40px;
+
+        // background-color: skyblue;
+
+        border-bottom: 1px dashed gray;
+    }
+
+    // main content area
+    .content {
+        width: 758px;
+        height: 498px;
+
+        display: flex;
+
+        // background-color: yellowgreen;
+
+        .sidebar {
+            width: 100px;
+            height: 498px;
+
+            // background-color: gray;
+
+            border-right: 1px dashed gray;
+
+            // sidebar children element style
+            div {
+                width: 100px;
+                height: 35px;
+
+                // background-color: skyblue;
+                
+                border-bottom: 1px dashed gray;
+
+                font-size: 16px;
+                line-height: 35px;
+                text-align: center;
+            }
+            
+            div:hover {
+                background-color: rgb(227, 223, 223);
+            }
+        }
+
+        .container {
+            width: 658px;
+            height: 498px;
+
+            // background-color: pink;
+        }
+    }
+}
