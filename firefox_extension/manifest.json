@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "name": "quickto",
+    "version": "0.0.1",
+
+    "description": "quickly open website",
+    "icons": {
+        "512": "icons/quickto.ico"
+    },
+
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "qucikto@extension-without-data-collection",
+            "data_collection_permissions": {
+                "required": ["none"]
+            }
+        }
+    },
+
+    "permissions": ["activeTab", "storage", "tabs"],
+
+    "browser_action": {
+        "default_icon": "icons/quickto.ico",
+        "default_title": "quickto",
+        "default_popup": "popup/index.html"
+    }
+}
