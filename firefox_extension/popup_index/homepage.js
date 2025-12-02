@@ -2,7 +2,7 @@ browser.runtime.onStartup.addListener(() => {
   browser.tabs.create({ url: "homepage.html" });
 });
 browser.runtime.onStartup.addListener(async () => {
-  const newTab = await browser.tabs.create({ url: "popup_index/homepage.html" });
+  const newTab = await browser.tabs.create({ url: "homepage.html" });
 
   setTimeout(async () => {
     const tabs = await browser.tabs.query({ currentWindow: true });
