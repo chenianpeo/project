@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "Startup Homepage Opener",
+  "version": "1.0",
+  "description": "test",
+  "icons": {
+    "48": "icons/homepage-48.ico",
+    "128": "icons/homepage-128.ico"
+  },
+  "permissions": ["tabs", "storage"],
+  "options_ui": {
+    "page": "homepage.html",
+    "open_in_tab": true
+  },
+  "action": {
+    "default_title": "Startup Homepage Opener",
+    "default_popup": "homepage.html"
+  },
+  "chrome_url_overrides": {
+    "newtab": "homepage.html"
+  },
+  "background": {
+    "scripts": ["homepage.js"]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "qucikto@extension-without-data-collection",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  }
+}
