@@ -1,0 +1,71 @@
+// out: ./homepage.css
+body {
+
+// global custom page
+  .page {
+    margin: 0 auto;
+    width: 105rem;
+    height: 57.5rem;
+    background-image: url("../wallpaper/wallpaper.png");
+    background-size: cover;
+    opacity: 0.4;
+
+// search frame
+    #search {
+      margin: 0 auto;
+      padding-top: 12rem;
+      padding-bottom: 6rem;
+      width: 32rem;
+
+      input {
+        width: 32rem;
+        height: 2rem;
+        border-radius: 10px;
+        border: 0.5px dashed gray;
+      }
+    }
+
+// quick link area
+    .container {
+      width: 75rem;
+      height: 32.5rem;
+      margin: 0 auto;
+      display: flex;
+      border: 1px dashed gray;
+      user-select: none;
+
+  // quick link sidebar
+      .quickbar {
+        width: 6.25rem;
+
+        div {
+          width: 6.25rem;
+          height: 2rem;
+          display: flex;
+          border-bottom: 1px dashed gray;
+        }
+
+        .active > span {
+          display: block;
+          width: 5px;
+          height: 2rem;
+          background-color: black;
+          border-radius: 2px;
+        }
+
+        i {
+          width: 5.9375rem;
+          font-size: 20px;
+          text-align: center;
+          align-content: center;
+        }
+      }
+
+  // quick link display area
+      .quicklink {
+        width: 68.75rem;
+        background-color: pink;
+      }
+    }
+  }
+}

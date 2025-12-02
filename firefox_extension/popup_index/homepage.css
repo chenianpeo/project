@@ -1,0 +1,54 @@
+body .page {
+  margin: 0 auto;
+  width: 105rem;
+  height: 57.5rem;
+  background-image: url("../wallpaper/wallpaper.png");
+  background-size: cover;
+  opacity: 0.4;
+}
+body .page #search {
+  margin: 0 auto;
+  padding-top: 12rem;
+  padding-bottom: 6rem;
+  width: 32rem;
+}
+body .page #search input {
+  width: 32rem;
+  height: 2rem;
+  border-radius: 10px;
+  border: 0.5px dashed gray;
+}
+body .page .container {
+  width: 75rem;
+  height: 32.5rem;
+  margin: 0 auto;
+  display: flex;
+  border: 1px dashed gray;
+  user-select: none;
+}
+body .page .container .quickbar {
+  width: 6.25rem;
+}
+body .page .container .quickbar div {
+  width: 6.25rem;
+  height: 2rem;
+  display: flex;
+  border-bottom: 1px dashed gray;
+}
+body .page .container .quickbar .active > span {
+  display: block;
+  width: 5px;
+  height: 2rem;
+  background-color: black;
+  border-radius: 2px;
+}
+body .page .container .quickbar i {
+  width: 5.9375rem;
+  font-size: 20px;
+  text-align: center;
+  align-content: center;
+}
+body .page .container .quicklink {
+  width: 68.75rem;
+  background-color: pink;
+}

@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h1>welcome to homepage</h1>
-</body>
+    <link rel="stylesheet" href="./homepage.css" />
+  </head>
+  <body>
+    <div class="page">
+      <!-- search frame -->
+      <div class="search">
+        <form id="search" action="https://www.google.com/search" method="GET">
+          <input
+            type="text"
+            name="q"
+            autocomplete="off"
+            placeholder="Search…"
+          />
+        </form>
+      </div>
+
+      <!-- quick link area -->
+      <div class="container">
+        <div class="quickbar">
+          <div id="class1" class="active"><span></span><i>2</i></div>
+          <div id="class2"><span></span><i>2</i></div>
+          <div id="class3"><span></span><i>2</i></div>
+          <div id="class4"><span></span><i>2</i></div>
+        </div>
+        <div class="quicklink">quicklink</div>
+      </div>
+    </div>
+
+    <script src="./page.js"></script>
+  </body>
 </html>
