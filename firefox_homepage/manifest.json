@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Startup Homepage Opener",
+  "name": "quickopen",
   "version": "1.0",
   "description": "test",
   "icons": {
@@ -13,7 +13,7 @@
     "open_in_tab": true
   },
   "action": {
-    "default_title": "Startup Homepage Opener",
+    "default_title": "quickopen",
     "default_popup": "homepage.html"
   },
   "chrome_url_overrides": {
@@ -24,7 +24,7 @@
   },
   "browser_specific_settings": {
     "gecko": {
-      "id": "qucikto@extension-without-data-collection",
+      "id": "qucikopen@extension-without-data-collection",
       "data_collection_permissions": {
         "required": ["none"]
       }
