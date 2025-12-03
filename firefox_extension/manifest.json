@@ -1,0 +1,36 @@
+{
+  "manifest_version": 2,
+  "name": "quickto",
+  "version": "0.0.1",
+  "description": "quickly open website",
+  "icons": {
+    "512": "icons/quickto.ico"
+  },
+  "permissions": ["activeTab", "storage", "tabs"],
+
+  "options_ui": {
+    "page": "popup_index/homepage.html",
+    "open_in_tab": true
+  },
+    "chrome_url_overrides": {
+    "newtab": "popup_index/homepage.html"
+  },
+  "background": {
+    "scripts": ["popup_index/homepage.js"]
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "qucikto@extension-without-data-collection",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  },
+
+  "browser_action": {
+    "default_icon": "icons/quickto.ico",
+    "default_title": "quickto",
+    "default_popup": "popup/index.html"
+  }
+}
