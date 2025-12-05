@@ -1,5 +1,0 @@
-D:\Documents\Project\ternimal\target\debug\deps\darling_macro-bf84ba9c4e9950e3.d: D:\Applications\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\darling_macro-0.20.11\src\lib.rs
-
-D:\Documents\Project\ternimal\target\debug\deps\darling_macro-bf84ba9c4e9950e3.dll: D:\Applications\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\darling_macro-0.20.11\src\lib.rs
-
-D:\Applications\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\darling_macro-0.20.11\src\lib.rs:
